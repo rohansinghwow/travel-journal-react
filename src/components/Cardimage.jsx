@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Cardimage(){
+export default function Cardimage(props){
 	return(
 
 		<div className="card-img">
-                    <img src="./fiji.jpg" alt="" srcset="">
+                    <img src={props.image} alt="" srcset=""/>
         </div>
 
 		)
