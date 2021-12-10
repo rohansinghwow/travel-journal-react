@@ -6,7 +6,7 @@ export default function Cardbody(props){
     const {title,location,googleMapsUrl,startDate,endDate,description,imageUrl} = props.item;
 
 	return(
-    <>
+    <div className="card">
         <Cardimage image={imageUrl}/>
 		<div className="card-body">
                     <div className="card-small">
@@ -24,7 +24,7 @@ export default function Cardbody(props){
                         <p>{description}</p>
                     </div>
         </div>
-    </>
+    </div>
 
 		)
 }
