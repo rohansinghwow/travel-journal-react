@@ -1,7 +1,8 @@
 # Getting Started 
 ![](pic1.png)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+# Acknowledgement
+* Design file was provided on Figma by Scrimba
 # How it works
 
 * Card is divided into multiple components
